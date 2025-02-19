@@ -3,7 +3,7 @@ version: '7.2.7-WHENYOUSEEIT'
 main: dev.notmycode.labs.lobby.Lobby
 api-version: '1.21'
 authors: [ notmycode-labs, furriesgang ]
-website:
+website: https://github.com/furriesgang/Lobby
 folia-supported: true
 description: Extremely Hardcoded Lobby Plugin
 commands:
