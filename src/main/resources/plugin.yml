@@ -1,0 +1,31 @@
+name: Lobby
+version: '7.2.7-WHENYOUSEEIT'
+main: dev.notmycode.labs.lobby.Lobby
+api-version: '1.21'
+authors: [ notmycode-labs, furriesgang ]
+website:
+folia-supported: true
+description: Extremely Hardcoded Lobby Plugin
+commands:
+  tpsbar:
+    description: Toggle TPS bar display
+    usage: /<command>
+    permission: lobby.tpsbar
+  rambar:
+    description: Toggle RAM usage bar display
+    usage: /<command>
+    permission: lobby.rambar
+  cpubar:
+    description: Toggle CPU usage bar display
+    usage: /<command>
+    permission: lobby.cpubar
+  spawn:
+    description: Teleport to the lobby spawn
+    usage: /<command>
+permissions:
+  lobby.tpsbar:
+    default: op
+  lobby.rambar:
+    default: op
+  lobby.cpubar:
+    default: op
